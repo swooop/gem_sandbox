@@ -22,4 +22,11 @@ You can cd into classes and ls too.
 
 Is also very handy...
 
+All of the Mailjet gem related goodness should be available straight from the console.
+In the gem itself, the main action is in:
+```
+lib/mailjet/connection.rb
+lib/mailjet/api_error.rb
+lib/mailjet/mailer.rb
+lib/mailjet/resources # this is 'per action' stuff
 
