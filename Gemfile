@@ -33,7 +33,7 @@ gem 'mailjet', :path => "" #add the path to you local gem folder or:
 
 
 # pry will now be your rails console, because I like it.
-gem 'pry-rails', :group => :development
+gem 'pry-rails'
 
 
 # Use ActiveModel has_secure_password

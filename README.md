@@ -30,3 +30,11 @@ lib/mailjet/api_error.rb
 lib/mailjet/mailer.rb
 lib/mailjet/resources # this is 'per action' stuff
 
+There is a base Mailer set up you can call from the TestMailer class (.welcome_email)
+
+You will need to add credentials (mailjet.rb) in initializers.
+
+NB - if running stuff from the rails console (currently set to pry), make sure you specifiy
+``` rails console production ```
+for email to send live.
+
